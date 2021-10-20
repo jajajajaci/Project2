@@ -23,6 +23,23 @@ const auth = firebase.auth();
 const firestore = firebase.firestore();
 const analytics = firebase.analytics();
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function App() {
   const [user] = useAuthState(auth);
 
@@ -123,3 +140,4 @@ function ChatMessage(props) {
 }
 
 export default App;
+
